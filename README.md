@@ -1,5 +1,5 @@
 # Lekh Dothraki
-PDF version of sunquan8094's Dothraki Tutorial series on YouTube
+PDF version of [sunquan8094's Dothraki Tutorial series on YouTube](https://www.youtube.com/playlist?list=PL6EA0D1E2E21A5B0D)
 
 Contributing
 ---
