@@ -1,8 +1,10 @@
-\documentclass[12pt, oneside]{book}
+\documentclass[12pt, oneside]{report}
 \usepackage[margin=1in]{geometry}
+\usepackage{emptypage}
 \usepackage{arev}
 \usepackage[T1]{fontenc}
 \begin{document}
+	\thispagestyle{empty}
 	\title{Lekh Dothraki}
 	\author{sunquan8094}
 	\maketitle
@@ -11,5 +13,8 @@
  	\input{intro.tex}
 	\input{pronunciation.tex}
 	\input{lesson01.tex}
+	\renewcommand{\chaptername}{Appendix}
+	\setcounter{chapter}{0}
+	\renewcommand{\thechapter}{\Alph{chapter}}
 	\input{appendix_a.tex}
 \end{document}
